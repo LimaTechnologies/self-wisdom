@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Self wisdom",
+  title: "Self Wisdom",
   description: "All your knowledge in a single place",
 };
 
@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/self-wisdom-logo.png" type="image/png" />
+      </head>
       <body
         className={`${inter.variable} antialiased min-h-screen`}
       >
